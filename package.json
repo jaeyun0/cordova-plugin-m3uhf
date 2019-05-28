@@ -15,11 +15,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jaeyun0/m3uhf.git"
+    "url": "git+https://github.com/jaeyun0/cordova-plugin-m3uhf.git"
   },
   "bugs": {
-    "url": "https://github.com/jaeyun0/m3uhf/issues"
+    "url": "https://github.com/jaeyun0/cordova-plugin-m3uhf/issues"
   },
-  "homepage": "https://github.com/jaeyun0/m3uhf#readme",
+  "homepage": "https://github.com/jaeyun0/cordova-plugin-m3uhf#readme",
   "description": ""
 }
