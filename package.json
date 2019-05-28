@@ -1,7 +1,6 @@
 {
   "name": "net.m3mobile.uhf",
   "version": "0.0.1",
-  "description": "",
   "cordova": {
     "id": "net.m3mobile.uhf",
     "platforms": [
@@ -13,5 +12,14 @@
     "cordova-android"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaeyun0/m3uhf.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaeyun0/m3uhf/issues"
+  },
+  "homepage": "https://github.com/jaeyun0/m3uhf#readme",
+  "description": ""
 }
