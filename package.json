@@ -1,0 +1,17 @@
+{
+  "name": "net.m3mobile.uhf",
+  "version": "0.0.1",
+  "description": "",
+  "cordova": {
+    "id": "net.m3mobile.uhf",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="net.m3mobile.uhf" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>m3uhf</name>
+    <js-module name="m3uhf" src="www/m3uhf.js">
+        <clobbers target="cordova.plugins.m3uhf" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="m3uhf">
+                <param name="android-package" value="net.m3mobile.uhf.m3uhf" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml"></config-file>
+        <source-file src="src/android/m3uhf.java" target-dir="src/net/m3mobile/uhf/m3uhf" />
+    </platform>
+</plugin>
